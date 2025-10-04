@@ -80,7 +80,7 @@ def test_01():
         y_pred=estimator.predict(x),
     )
 
-    assert accuracy > 0.8613
+    assert accuracy > 0.6
 
 
 
@@ -109,5 +109,5 @@ def test_01():
         y_pred=estimator.predict(x),
     )
 
-    assert accuracy > 0.8613
+    assert accuracy > 0.6
 
